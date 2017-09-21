@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Алексей Марков](https://up.htmlacademy.ru/adaptive/12/user/360247).
-* Наставник: `Неизвестно`.
+* Наставник: Без наставника (повторное прохождение).
 
 ---
 

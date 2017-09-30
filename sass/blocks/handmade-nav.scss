@@ -1,0 +1,99 @@
+// .handmade-nav {
+// }
+
+.handmade-nav__links {
+  @media (min-width: $screen-tablet) {
+    display: flex;
+  }
+}
+
+.handmade-nav__item {
+  position: relative;
+  display: block;
+  min-height: 103px;
+  color: $light-text;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: $font-size--xxl;
+  line-height: 24px / $font-size--xxl;
+
+  @media (min-width: $screen-tablet) {
+    padding-bottom: 31px;
+    //    min-height: 528px;
+    width: 50%;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  @media (min-width: $screen-desktop) {
+    min-height: 119px;
+  }
+
+  &--interior {
+    background: $light-green;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 21px;
+      right: 11%;
+      width: 45px;
+      height: 65px;
+      background: url("../img/icon-interior.svg") no-repeat center;
+      opacity: 0.5;
+
+      @media (min-width: $screen-tablet) {
+        top: 29px;
+        right: 10%;
+      }
+
+      @media (min-width: $screen-desktop) {
+        right: 35px;
+      }
+    }
+  }
+
+  &--toy {
+    background: $green;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 18px;
+      right: 8%;
+      width: 65px;
+      height: 65px;
+      background: url("../img/icon-toy.svg") no-repeat center;
+      opacity: 0.5;
+
+      @media (min-width: $screen-tablet) {
+        top: 29px;
+        right: 9%;
+      }
+
+      @media (min-width: $screen-desktop) {
+        right: 32px;
+      }
+    }
+  }
+}
+
+.handmade-nav__item span {
+  margin-left: 9%;
+  padding-top: 25px;
+  display: block;
+  width: 110px;
+
+  @media (min-width: $screen-tablet) {
+    padding-top: 28px;
+    margin-left: 11%;
+    font-size: $font-size--tempName;
+    line-height: 30px / $font-size--tempName;
+  }
+
+  @media (min-width: $screen-desktop) {
+    margin-left: 7%;
+  }
+}

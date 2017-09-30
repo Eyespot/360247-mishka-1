@@ -1,0 +1,47 @@
+.page-header {
+  margin: 0 auto;
+  padding-top: 21px;
+  border-top: 1px solid $gray-2;
+  border-bottom: 1px solid $gray-2;
+  min-width: $mobile-width;
+
+  @media (min-width: $screen-tablet) {
+    width: $tablet-width;
+    padding: 0 50px;
+    border: none;
+  }
+
+  @media (min-width: $screen-desktop) {
+    padding: 0;
+    width: $desktop-width;
+  }
+}
+
+.page-header__logo {
+  display: block;
+  margin: 0 auto;
+  width: 86px;
+
+  @media (min-width: $screen-tablet) {
+    margin: 0;
+    padding-top: 22px;
+    width: 320px;
+    min-height: 89px;
+    order: 1;
+    border-bottom: 1px solid $gray-2;
+  }
+
+  @media (min-width: $screen-desktop) {
+    padding-left: 15px;
+    width: 23%;
+    order: 3;
+  }
+
+  &--link:hover {
+    opacity: 0.6;
+  }
+
+  &--link:active {
+    opacity: 0.3;
+  }
+}

@@ -32,7 +32,6 @@
     padding-top: 65px;
     font-size: $font-size--xxxxxxl;
     line-height: 57px / $font-size--xxxxxxl;
-
   }
 }
 
@@ -72,6 +71,7 @@
     left: 0;
     width: 65px;
     height: 45px;
+
     @media (min-width: $screen-tablet) {
       top: 35px;
       left: 1px;
@@ -79,7 +79,6 @@
   }
 
   &--eco {
-
     &::before {
       background: url("../img/icon-feature-1.svg") no-repeat 7px 5px;
     }
@@ -90,7 +89,6 @@
   }
 
   &--with-love {
-
     &::before {
       background: url("../img/icon-feature-2.svg") no-repeat 3px 8px;
     }
@@ -101,7 +99,6 @@
   }
 
   &--cheap {
-
     &::before {
       background: url("../img/icon-feature-3.svg") no-repeat 0 6px;
     }
@@ -112,7 +109,6 @@
   }
 
   &--domestic {
-
     &::before {
       background: url("../img/icon-feature-4.svg") no-repeat -5px 8px;
     }
@@ -123,7 +119,6 @@
   }
 
   &--thumb-up {
-
     &::before {
       background: url("../img/icon-feature-5.svg") no-repeat 7px 10px;
     }
@@ -134,7 +129,6 @@
   }
 
   &--gift-wrap {
-
     &::before {
       background: url("../img/icon-feature-6.svg") no-repeat 2px 7px;
     }

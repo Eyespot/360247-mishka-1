@@ -10,16 +10,15 @@
 
   @media (min-width: $screen-desktop) {
     width: $desktop-width;
-//    min-height: 700px;
+    //    min-height: 700px;
   }
 }
 
 .item-ot-week__content {
-
   @media (min-width: $screen-tablet) {
     margin-top: 51px;
     width: 290px;
-//    min-height: 485px;
+    //    min-height: 485px;
   }
 
   @media (min-width: $screen-desktop) {
@@ -29,7 +28,6 @@
 }
 
 .item-ot-week__header {
-
   @media (min-width: $screen-tablet) {
     display: flex;
     justify-content: space-between;
@@ -83,13 +81,12 @@
 }
 
 .item-ot-week__text {
-
   @media (min-width: $screen-tablet) {
     min-height: 245px;
   }
 
-  @media (min-width: $screen-desktop) {
-  }
+  // @media (min-width: $screen-desktop) {
+  // }
 }
 
 .item-ot-week__info {
@@ -100,8 +97,8 @@
     line-height: 30px / $font-size--lg;
   }
 
-  @media (min-width: $screen-desktop) {
-  }
+  // @media (min-width: $screen-desktop) {
+  // }
 }
 
 .item-ot-week__list {
@@ -188,12 +185,12 @@
   @media (min-width: $screen-tablet) {
     margin-top: 35px;
     padding: 9px 97px;
-//    margin: 0;
-//    padding: 0;
+    //  margin: 0;
+    //    padding: 0;
     width: 100%;
     min-height: 51px;
   }
 
-  @media (min-width: $screen-desktop) {
-  }
+  // @media (min-width: $screen-desktop) {
+  // }
 }

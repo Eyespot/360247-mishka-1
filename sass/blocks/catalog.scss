@@ -5,8 +5,8 @@
     margin-top: -90px;
   }
 
-  @media (min-width: $screen-desktop) {
-  }
+  // @media (min-width: $screen-desktop) {
+  // }
 }
 
 .catalog__header-wrapper {
@@ -30,6 +30,7 @@
   padding-top: 70px;
   width: $mobile-width;
   min-height: 176px;
+
   @include title-h2;
 
   @media (min-width: $screen-tablet) {

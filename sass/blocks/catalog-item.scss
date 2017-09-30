@@ -76,7 +76,7 @@
 .catalog-item__info-wrapper {
   display: flex;
   flex-direction: column;
-//  padding-top: 26px;
+  //  padding-top: 26px;
   padding-left: 27px;
   padding-right: 25px;
   width: 260px;
@@ -86,27 +86,27 @@
 
   &:hover {
     box-shadow:
-    0 10px 20px 0 rgba(4, 6, 6, 0.2),
-    10px 0 20px -10px rgba(4, 6, 6, 0.75),
-    -10px 0 20px -10px rgba(4, 6, 6, 0.75);
+      0 10px 20px 0 rgba(4, 6, 6, 0.2),
+      10px 0 20px -10px rgba(4, 6, 6, 0.75),
+      -10px 0 20px -10px rgba(4, 6, 6, 0.75);
   }
 
   &:active {
     box-shadow:
-    0 1px 5px 0 rgba(4, 6, 6, 0.2),
-    10px 0 20px -10px rgba(4, 6, 6, 0.75),
-    -10px 0 20px -10px rgba(4, 6, 6, 0.75);
+      0 1px 5px 0 rgba(4, 6, 6, 0.2),
+      10px 0 20px -10px rgba(4, 6, 6, 0.75),
+      -10px 0 20px -10px rgba(4, 6, 6, 0.75);
   }
 
   @media (min-width: $screen-tablet) {
     width: 334px;
-//    min-height: 334px;
+    //    min-height: 334px;
   }
 
   @media (min-width: $screen-desktop) {
-//    margin-top: 128px;
+    //    margin-top: 128px;
     width: 316px;
-//    min-height: 197px;
+    //    min-height: 197px;
   }
 }
 
@@ -137,8 +137,8 @@
     line-height: 24px / $font-size--lg;
   }
 
-  @media (min-width: $screen-desktop) {
-  }
+  // @media (min-width: $screen-desktop) {
+  // }
 }
 
 .catalog-item__bottom {
@@ -162,13 +162,12 @@
 }
 
 .catalog-item:last-child .catalog-item__bottom {
-
   @media (min-width: $screen-tablet) {
-//    margin-top: 148px;
+    //    margin-top: 148px;
   }
 
   @media (min-width: $screen-desktop) {
-//    margin-top: 14px;
+    //    margin-top: 14px;
     padding-left: 0;
   }
 }

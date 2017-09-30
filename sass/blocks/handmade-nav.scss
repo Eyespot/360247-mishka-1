@@ -1,8 +1,7 @@
-.handmade-nav {
-}
+// .handmade-nav {
+// }
 
 .handmade-nav__links {
-
   @media (min-width: $screen-tablet) {
     display: flex;
   }
@@ -20,11 +19,11 @@
 
   @media (min-width: $screen-tablet) {
     padding-bottom: 31px;
-//    min-height: 528px;
+    //    min-height: 528px;
     width: 50%;
 
     &:hover {
-    transform: translateY(-5px);
+      transform: translateY(-5px);
     }
   }
 

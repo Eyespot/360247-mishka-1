@@ -7,7 +7,6 @@
 
   @media (min-width: $screen-tablet) {
     margin: 0 auto;
-    padding: 0;
     padding: 0 50px;
     width: $tablet-width;
   }
@@ -25,16 +24,16 @@
 
   &:hover {
     box-shadow:
-    0 10px 20px 0 rgba(4, 6, 6, 0.2),
-    10px 0 20px -10px rgba(4, 6, 6, 0.75),
-    -10px 0 20px -10px rgba(4, 6, 6, 0.75);
+      0 10px 20px 0 rgba(4, 6, 6, 0.2),
+      10px 0 20px -10px rgba(4, 6, 6, 0.75),
+      -10px 0 20px -10px rgba(4, 6, 6, 0.75);
   }
 
   &:active {
     box-shadow:
-    0 1px 5px 0 rgba(4, 6, 6, 0.2),
-    10px 0 20px -10px rgba(4, 6, 6, 0.75),
-    -10px 0 20px -10px rgba(4, 6, 6, 0.75);
+      0 1px 5px 0 rgba(4, 6, 6, 0.2),
+      10px 0 20px -10px rgba(4, 6, 6, 0.75),
+      -10px 0 20px -10px rgba(4, 6, 6, 0.75);
   }
 
   @media (min-width: $screen-tablet) {
@@ -159,13 +158,13 @@
     }
 
     @media (min-width: $screen-desktop) {
-    content: "";
-    position: absolute;
-    left: 760px;
-    top: 45px;
-    width: 32px;
-    height: 22px;
-    background: url("../img/icon-video.svg") no-repeat center;
+      content: "";
+      position: absolute;
+      left: 760px;
+      top: 45px;
+      width: 32px;
+      height: 22px;
+      background: url("../img/icon-video.svg") no-repeat center;
     }
   }
 }
@@ -211,7 +210,7 @@
 
 .making__order {
   margin-left: 33px;
-//  margin-bottom: 30px;
+  //  margin-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
   width: 192px;
@@ -227,7 +226,7 @@
   }
 
   @media (min-width: $screen-desktop) {
-    padding: 0 40px;
+    // padding: 0 40px;
     margin-left: 0;
     margin-top: 45px;
     padding: 0 41px;
@@ -237,9 +236,8 @@
 }
 
 .modal__oder-wrapper {
-
-  @media (min-width: $screen-tablet) {
-  }
+  // @media (min-width: $screen-tablet) {
+  // }
 
   @media (min-width: $screen-desktop) {
     margin-left: 760px;

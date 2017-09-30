@@ -1,5 +1,4 @@
 .type-radio {
-
   :checked ~ label::after {
     position: absolute;
     content: "";
@@ -17,10 +16,11 @@
       top: 55px;
     }
   }
-
-  @media (min-width: $screen-tablet) {
-  }
 }
+
+//   @media (min-width: $screen-tablet) {
+//   }
+// }
 
 .type-radio input[type="radio"] {
   display: none;
@@ -33,6 +33,7 @@
   padding-left: 62px;
   padding-top: 34px;
   cursor: pointer;
+
   @include title-label;
 
   @media (min-width: $screen-tablet) {

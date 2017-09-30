@@ -48,7 +48,6 @@
 }
 
 .reviews__slider {
-
   @media (min-width: $screen-tablet) {
     margin-top: 4px;
   }
@@ -74,14 +73,12 @@
 }
 
 .reviews__arrows {
-//  margin: 0;
+  //  margin: 0;
   position: relative;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-
-
 
 .reviews__arrow {
   padding: 0;
@@ -119,7 +116,7 @@
 
   @media (min-width: $screen-tablet) {
     right: 96px;
-//    margin-left: 38px;
+    //    margin-left: 38px;
     background-position: 15px 12px;
   }
 

@@ -31,14 +31,12 @@
   }
 
   &--link:hover svg {
-
     @media (min-width: $screen-tablet) {
       fill: $green-2;
     }
   }
 
   &--link:active svg {
-
     @media (min-width: $screen-tablet) {
       opacity: 0.3;
     }

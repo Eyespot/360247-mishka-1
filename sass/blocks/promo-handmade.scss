@@ -1,14 +1,13 @@
 .promo-handmade {
   background: $gray-4;
 
-  @media (min-width: $screen-tablet) {
-  }
+  // @media (min-width: $screen-tablet) {
+  // }
 
-  @media (min-width: $screen-desktop) {
-  }
+  // @media (min-width: $screen-desktop) {
+  // }
 
   &::after {
-
     @media (min-width: $screen-tablet) {
       position: relative;
       content: "";
@@ -68,9 +67,10 @@
 .promo-handmade__title {
   margin: 0 auto;
   width: 250px;
-  @include title-h2;
   padding-top: 70px;
   text-align: center;
+
+  @include title-h2;
 
   @media (min-width: $screen-tablet) {
     padding-top: 152px;

@@ -15,7 +15,6 @@
 }
 
 .contacts__inner-wrapper {
-
   @media (min-width: $screen-tablet) {
     margin: 0 auto;
     width: $tablet-width;
@@ -155,7 +154,7 @@
     display: inline-block;
     vertical-align: top;
     transform: translateX(-3px);
-//    margin-left: 20px;
+    //    margin-left: 20px;
   }
 }
 
@@ -189,8 +188,8 @@
   }
 }
 
-.contacts__write-wrapper {
-}
+// .contacts__write-wrapper {
+// }
 
 .contacts__write {
   margin: 0 auto;

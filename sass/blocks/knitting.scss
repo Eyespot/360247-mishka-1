@@ -1,0 +1,332 @@
+.knitting {
+
+  @media (min-width: $screen-tablet) {
+    margin-top: -90px;
+    border-top: 1px solid $gray-2;
+  }
+
+  @media (min-width: $screen-desktop) {
+
+  }
+}
+
+.knitting__additionall {
+  min-height: 195px;
+}
+
+.knitting__header-wrapper {
+  background: $gray;
+
+  @media (min-width: $screen-tablet) {
+    min-height: 226px;
+    background: $gray url("../img/bg-zigzag-fill.svg") repeat-x 0 105%;
+    background-size: 768px auto;
+  }
+
+  @media (min-width: $screen-desktop) {
+    min-height: 256px;
+    background-size: 1150px auto;
+    background-position: 0 106%;
+  }
+}
+
+.knitting__title {
+  margin: 0 auto;
+  padding: 0 30px;
+  padding-top: 70px;
+  padding-left: 37px;
+  width: 320px;
+  min-height: 177px;
+  @include title-h2;
+
+  @media (min-width: $screen-tablet) {
+    padding-left: 24.5%;
+    padding-top: 92px;
+    padding-right: 6.5%;
+    width: $tablet-width;
+//    min-height: 225px;
+    font-size: $font-size--xxxxxl;
+    line-height: 50px / $font-size--xxxxxl;
+  }
+
+  @media (min-width: $screen-desktop) {
+    padding: 0;
+    padding-top: 94px;
+    padding-left: 334px;
+    padding-right: 330px;
+    width: $desktop-width;
+    font-size: $font-size--xxxxxxl;
+    line-height: 57px / $font-size--xxxxxxl;
+  }
+}
+
+.knitting__info {
+  padding: 0 30px;
+  padding-top: 9px;
+//  width: 260px;
+  font-size: $font-size--xs;
+  line-height: 24px / $font-size--xs;
+
+  @media (min-width: $screen-tablet) {
+    padding: 0 6.5%;
+    padding-top: 55px;
+    min-height: 114px;
+    font-size: $font-size--lg;
+    line-height: 30px / $font-size--lg;
+  }
+
+  @media (min-width: $screen-desktop) {
+    padding: 0 139px;
+    padding-top: 86px;
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 980px;
+    min-height: 161px;
+  }
+}
+
+.knitting__order {
+
+  @media (min-width: $screen-tablet) {
+  }
+}
+
+.knitting__legend {
+  position: relative;
+  margin: 0;
+  display: block;
+  margin-top: 25px;
+  color: $legend-text;
+  font-weight: bold;
+  font-size: $font-size--lg;
+  line-height: 18px / $font-size--lg;
+  text-transform: uppercase;
+
+  @media (min-width: $screen-tablet) {
+    width: 24%;
+
+  @media (min-width: $screen-desktop) {
+    padding-left: 36px;
+    width: 14%;
+  }
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &--type {
+
+    @media (min-width: $screen-tablet) {
+      margin: 0;
+      padding-top: 56px;
+      min-height: 217px;
+    }
+
+    @media (min-width: $screen-desktop) {
+
+    }
+  }
+
+  &--color {
+    margin-top: 23px;
+
+    @media (min-width: $screen-tablet) {
+      margin: 0;
+      padding-top: 66px;
+      min-height: 304px;
+    }
+
+    @media (min-width: $screen-desktop) {
+      min-height: 228px;
+    }
+  }
+
+  &--identity {
+    margin-top: 33px;
+    padding-bottom: 4px;
+
+    @media (min-width: $screen-tablet) {
+      margin: 0;
+      padding-top: 65px;
+      min-height: 304px;
+    }
+  }
+
+  &--phone {
+    margin-top: 33px;
+
+    @media (min-width: $screen-tablet) {
+      margin: 0;
+      padding-top: 67px;
+      height: 114px;
+    }
+  }
+
+  &--email {
+
+    @media (min-width: $screen-tablet) {
+      margin: 0;
+      padding-top: 29px;
+      height: 114px;
+    }
+  }
+
+  &--add {
+    margin-top: 22px;
+
+    @media (min-width: $screen-tablet) {
+      margin: 0;
+      padding-top: 67px;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 76%;
+    height: 1px;
+    background: $light-green;
+  }
+
+  &--email::before {
+    width: 179px;
+  }
+}
+
+.knitting__inner-wrapper {
+
+  @media (min-width: $screen-tablet) {
+    width: 75%;
+  }
+
+  &--checkbox {
+
+    @media (min-width: $screen-tablet) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.knitting__type,
+.knitting__color,
+.knitting__identity,
+.knitting__tel,
+.knitting__email,
+.knitting__additionall {
+  padding: 0 30px;
+
+  @media (min-width: $screen-tablet) {
+    padding-left: 6.6%;
+    padding-right: 5.8%;
+    display: flex;
+  }
+
+  @media (min-width: $screen-desktop) {
+    max-width: $desktop-width;
+    margin: 0 auto;
+  }
+}
+
+.knitting__color-wrapper,
+.knitting__tel-email-wrapper {
+
+  @media (min-width: $screen-tablet) {
+    background: $gray;
+  }
+}
+
+.knitting__required {
+  font-size: $font-size--sm;
+  line-height: 16px / $font-size--sm;
+
+  @media (min-width: $screen-tablet) {
+    padding-left: 38px;
+    width: 100%;
+    font-size: $font-size--lg;
+    line-height: 30px / $font-size--lg;
+  }
+}
+
+.knitting__required-wrapper {
+  transform: translateY(-5px);
+
+  @media (min-width: $screen-tablet) {
+    width: 57%;
+    transform: translateY(-9px);
+  }
+
+  @media (min-width: $screen-desktop) {
+    width: 55.5%;
+    transform: translateY(-10px);
+  }
+}
+
+.knitting__submit-wrapper {
+  margin-bottom: 54px;
+
+  @media (min-width: $screen-tablet) {
+    width: 43%;
+    margin-bottom: 49px;
+  }
+
+  @media (min-width: $screen-desktop) {
+    width: auto;
+    transform: translateY(-5px);
+  }
+}
+
+.knitting__required-wrapper,
+.knitting__submit-wrapper {
+  padding: 0 30px;
+
+  @media (min-width: $screen-tablet) {
+    padding: 0 6.4%;
+  }
+
+  @media (min-width: $screen-desktop) {
+  }
+}
+
+.knitting__submit {
+  font-family: "OpenSans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: $font-size--lg;
+  margin-top: 24px;
+  padding: 0;
+  background-color: $white;
+  outline: none;
+
+  @media (min-width: $screen-tablet) {
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  @media (min-width: $screen-desktop) {
+    width: 100%;
+    padding: 0 30px;
+    transform: translateX(16px);
+  }
+}
+
+.knitting__footer-wrapper {
+
+  @media (min-width: $screen-tablet) {
+    display: flex;
+    margin-top: 53px;
+    flex-direction: row-reverse;
+  }
+
+  @media (min-width: $screen-tablet) {
+
+  }
+
+  @media (min-width: $screen-desktop) {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: $desktop-width;
+  }
+}

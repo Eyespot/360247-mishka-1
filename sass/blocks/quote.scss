@@ -1,0 +1,77 @@
+.quote {
+  margin: 0;
+  padding-bottom: 13px;
+//  display: flex;
+//  flex-wrap: wrap;
+
+  @media (min-width: $screen-tablet) {
+    order: 2;
+  }
+}
+
+.quote p {
+  margin: 0;
+  padding-top: 24px;
+  width: 260px;
+  line-height: 30px / $font-size--main;
+
+  @media (min-width: $screen-tablet) {
+    padding-top: 48px;
+    width: 97%;
+    font-size: $font-size--lg;
+    line-height: 30px / $font-size--lg;
+  }
+
+  @media (min-width: $screen-desktop) {
+    padding-top: 45px;
+    width: 88%;
+  }
+}
+
+.quote__footer {
+  margin-top: 28px;
+
+  @media (min-width: $screen-tablet) {
+    position: relative;
+    margin-top: 55px;
+    width: 44.5%;
+  }
+
+  @media (min-width: $screen-desktop) {
+    margin-top: 38px;
+  }
+}
+
+.quote__author {
+  padding-top: 25px;
+  width: 100%;
+  color: $secondary-text;
+  font-weight: bold;
+  font-size: $font-size--lg;
+  line-height: 24px / $font-size--lg;
+  font-style: normal;
+
+  @media (min-width: $screen-tablet) {
+    padding-top: 59px;
+    font-size: $font-size--xl;
+    line-height: 24px / $font-size--xl;
+  }
+
+  @media (min-width: $screen-desktop) {
+    font-size: $font-size--lg;
+    line-height: 24px / $font-size--lg;
+  }
+}
+
+.quote__email {
+  width: 100%;
+  color: $dark-gray;
+  text-decoration: none;
+  font-size: $font-size--lg;
+  line-height: 30px / $font-size--lg;
+
+  @media (min-width: $screen-tablet) {
+    display: block;
+    margin-top: 4px;
+  }
+}

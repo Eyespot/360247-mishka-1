@@ -1,0 +1,145 @@
+.page-footer {
+  background: $gray;
+}
+
+.page-footer__inner-wrapper {
+  min-width: $mobile-width;
+  background: $gray;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $screen-tablet) {
+    margin: 0 auto;
+    padding: 0 50px;
+    width: $tablet-width;
+    min-height: 143px;
+    flex-direction: row;
+  }
+
+  @media (min-width: $screen-desktop) {
+    width: $desktop-width;
+  }
+}
+
+.page-footer__logo {
+  display: none;
+
+  @media (min-width: $screen-tablet) {
+    display: block;
+    margin-top: 50px;
+    margin-right: 155px;
+  }
+
+  &--link:hover svg {
+
+    @media (min-width: $screen-tablet) {
+      fill: $green-2;
+    }
+  }
+
+  &--link:active svg {
+
+    @media (min-width: $screen-tablet) {
+      opacity: 0.3;
+    }
+  }
+}
+
+.page-footer__bottom {
+  margin: 0 auto;
+  width: 260px;
+  min-height: 79px;
+
+  @media (min-width: $screen-tablet) {
+    margin: 0;
+    margin-left: 46px;
+    width: auto;
+    min-height: 0;
+  }
+
+  @media (min-width: $screen-desktop) {
+    margin-left: 235px;
+  }
+}
+
+.page-footer__copyright {
+  display: flex;
+  font-size: 0;
+  text-decoration: none;
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  & p {
+    margin-left: 37px;
+    margin-top: 26px;
+    color: $secondary-text;
+    font-weight: bold;
+    font-size: $font-size--xxl;
+    line-height: 18px / $font-size--xxl;
+
+    @media (min-width: $screen-tablet) {
+      margin-top: 43px;
+    }
+  }
+
+  &:active p {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  & svg {
+    margin-left: 30px;
+    margin-top: 20px;
+    fill: $light-green;
+
+    @media (min-width: $screen-tablet) {
+      margin-top: 35px;
+    }
+  }
+
+  &:hover svg {
+    fill: $green-2;
+  }
+
+  @media (min-width: $screen-tablet) {
+    margin-top: 20px;
+  }
+}
+//
+//.page-footer__copyright {
+//  margin: 0;
+//  padding: 0 37px;
+//  padding-top: 11px;
+//  color: $secondary-text;
+//  font-weight: bold;
+//  font-size: $font-size--xxl;
+//  line-height: 18px / $font-size--xxl;
+//
+//  @media (min-width: $screen-tablet) {
+//    outline: $temp-ol;
+//    padding: 0;
+//    display: inline-block;
+//    vertical-align: bottom;
+//    margin-top: 47px;
+//    margin-left: 82px;
+////    padding-left: 82px;
+////    min-height: 50px;
+//  }
+//}
+//
+//.page-footer__academy {
+//  display: inline-block;
+//  vertical-align: bottom;
+//  margin-left: 25px;
+//  padding-top: 12px;
+//  width: 27px;
+//  height: 34px;
+//  font-size: 0;
+//
+//  @media (min-width: $screen-tablet) {
+//    margin-left: 24px;
+//    padding-top: 11px;
+//
+//  }
+//}

@@ -1,0 +1,22 @@
+.btn {
+  display: block;
+  margin-top: 25px;
+  padding: 10px 83px;
+  width: 260px;
+  min-height: 52px;
+  color: $dark-gray;
+  font-weight: bold;
+  font-size: $font-size--xl;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid $dark-gray;
+
+  &:hover:not(.reviews__arrow) {
+    color: $white;
+    background: $dark-gray;
+  }
+
+  &:active:not(.reviews__arrow) {
+    color: #8d8d8d;
+  }
+}

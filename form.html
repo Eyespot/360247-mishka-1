@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Мишка - каталог</title>
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/picturefill.min.js"></script>
     <style>
       HTML {
         background-repeat: no-repeat;
@@ -13,7 +14,7 @@
         background-image: url( "Preview/mishka-form-mobile hm.jpg" );
       }
 
-      @media ( min-width: 668px ) {
+      @media ( min-width: 768px ) {
         HTML {
 
           background-image: url( "Preview/mishka-form-tablet hm.jpg" );
@@ -44,7 +45,7 @@
         <a class="page-header__logo page-header__logo--link" href="index.html">
           <picture>
             <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg">
-            <source media="(min-width: 668px)" srcset="img/logo-tablet.svg">
+            <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
             <img src="img/logo-mobile.svg" alt="Mishka">
           </picture>
         </a>

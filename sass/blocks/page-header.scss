@@ -7,13 +7,13 @@
 
   @media (min-width: $screen-tablet) {
     width: $tablet-width;
-    padding: 0 50px;
+    padding: 0 42px;
     border: none;
   }
 
   @media (min-width: $screen-desktop) {
-    padding: 0;
     width: $desktop-width;
+    max-width: 1150px;
   }
 }
 
@@ -25,15 +25,17 @@
   @media (min-width: $screen-tablet) {
     margin: 0;
     padding-top: 22px;
-    width: 320px;
+    padding-left: 3px;
+    width: 47.9%;
     min-height: 89px;
     order: 1;
     border-bottom: 1px solid $gray-2;
   }
 
   @media (min-width: $screen-desktop) {
-    padding-left: 15px;
-    width: 23%;
+    padding-top: 10px;
+    padding-left: 40px;
+    width: 27%;
     order: 3;
   }
 

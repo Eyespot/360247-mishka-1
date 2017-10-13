@@ -1,6 +1,7 @@
 .reviews {
   margin: 0 auto;
   width: 260px;
+  max-width: 1150px;
 
   @media (min-width: $screen-tablet) {
     position: relative;

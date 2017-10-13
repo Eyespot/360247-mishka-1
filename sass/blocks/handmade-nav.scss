@@ -1,5 +1,7 @@
-// .handmade-nav {
-// }
+.handmade-nav {
+  max-width: 1150px;
+  margin: 0 auto;
+}
 
 .handmade-nav__links {
   @media (min-width: $screen-tablet) {
@@ -16,6 +18,10 @@
   font-weight: bold;
   font-size: $font-size--xxl;
   line-height: 24px / $font-size--xxl;
+
+  &:active {
+    color: rgba(151, 226, 210, 1);
+  }
 
   @media (min-width: $screen-tablet) {
     padding-bottom: 31px;
@@ -42,7 +48,7 @@
       width: 45px;
       height: 65px;
       background: url("../img/icon-interior.svg") no-repeat center;
-      opacity: 0.5;
+      // opacity: 0.5;
 
       @media (min-width: $screen-tablet) {
         top: 29px;
@@ -66,7 +72,7 @@
       width: 65px;
       height: 65px;
       background: url("../img/icon-toy.svg") no-repeat center;
-      opacity: 0.5;
+      // opacity: 0.5;
 
       @media (min-width: $screen-tablet) {
         top: 29px;

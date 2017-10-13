@@ -23,9 +23,10 @@
   }
 
   @media (min-width: $screen-desktop) {
-    min-height: 256px;
+    min-height: 255px;
+    background-repeat: no-repeat;
     background-size: 1150px auto;
-    background-position: 0 106%;
+    background-position: 50% 106%;
   }
 }
 
@@ -35,6 +36,7 @@
   padding-top: 70px;
   padding-left: 37px;
   width: 320px;
+  max-width: 1150px;
   min-height: 177px;
 
   @include title-h2;
@@ -52,9 +54,9 @@
   @media (min-width: $screen-desktop) {
     padding: 0;
     padding-top: 94px;
-    padding-left: 334px;
-    padding-right: 330px;
-    width: $desktop-width;
+    padding-left: 33px;
+    // padding-right: 330px;
+    width: 545px;
     font-size: $font-size--xxxxxxl;
     line-height: 57px / $font-size--xxxxxxl;
   }
@@ -64,6 +66,7 @@
   padding: 0 30px;
   padding-top: 9px;
   //  width: 260px;
+  max-width: 1150px;
   font-size: $font-size--xs;
   line-height: 24px / $font-size--xs;
 
@@ -110,8 +113,8 @@
   }
 
   @media (min-width: $screen-desktop) {
-    padding-left: 36px;
-    width: 14%;
+    padding-left: 110px;
+    width: 18.9%;
   }
 
   &--type {
@@ -198,6 +201,10 @@
     width: 75%;
   }
 
+  @media (min-width: $screen-desktop) {
+    width: 65.9%;
+  }
+
   &--checkbox {
     @media (min-width: $screen-tablet) {
       display: flex;
@@ -221,8 +228,9 @@
   }
 
   @media (min-width: $screen-desktop) {
-    max-width: $desktop-width;
+    max-width: 1150px;
     margin: 0 auto;
+    padding: 0;
   }
 }
 
@@ -309,7 +317,7 @@
 .knitting__footer-wrapper {
   @media (min-width: $screen-tablet) {
     display: flex;
-    margin-top: 53px;
+    margin-top: 51px;
     flex-direction: row-reverse;
   }
 
@@ -321,5 +329,6 @@
     margin: 0 auto;
     margin-top: 50px;
     width: $desktop-width;
+    max-width: 1150px;
   }
 }

@@ -71,6 +71,14 @@
     margin: 0;
     padding-top: 20px;
   }
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .catalog-item__info-wrapper {

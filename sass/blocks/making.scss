@@ -3,6 +3,7 @@
   margin-top: 30px;
   padding: 0 30px;
   width: $mobile-width;
+  max-width: 1150px;
 
 
   @media (min-width: $screen-tablet) {
@@ -204,7 +205,7 @@
 
   @media (min-width: $screen-desktop) {
     padding-left: 757px;
-    padding-top: 31px;
+    padding-top: 36px;
   }
 }
 
@@ -227,7 +228,7 @@
 
   @media (min-width: $screen-desktop) {
     // padding: 0 40px;
-    margin-left: 0;
+    margin-left: 760px;
     margin-top: 45px;
     padding: 0 41px;
     padding-top: 15px;

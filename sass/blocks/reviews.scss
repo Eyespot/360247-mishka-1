@@ -1,6 +1,7 @@
 .reviews {
   margin: 0 auto;
   width: 260px;
+  max-width: 1150px;
 
   @media (min-width: $screen-tablet) {
     position: relative;
@@ -90,10 +91,12 @@
 
   &:hover {
     opacity: 0.6;
+    outline: none;
   }
 
   &:active {
     opacity: 0.3;
+    outline: none;
   }
 
   @media (min-width: $screen-tablet) {

@@ -19,8 +19,9 @@
   }
 
   @media (min-width: $screen-desktop) {
+    background-repeat: no-repeat;
     background-size: 1150px auto;
-    background-position: 0 106%;
+    background-position: 50% 106%;
   }
 }
 
@@ -29,13 +30,14 @@
   padding: 0 40px;
   padding-top: 70px;
   width: $mobile-width;
+  max-width: 1150px;
   min-height: 176px;
 
   @include title-h2;
 
   @media (min-width: $screen-tablet) {
-    width: $tablet-width;
-    padding: 0 195px;
+    width: 465px;
+    // padding: 0 50px;
     padding-top: 95px;
     min-height: 225px;
     font-size: $font-size--xxxxxl;
@@ -43,9 +45,9 @@
   }
 
   @media (min-width: $screen-desktop) {
-    padding-left: 343px;
-    padding-right: 343px;
-    width: $desktop-width;
+    // padding-left: 343px;
+    // padding-right: 343px;
+    width: 545px;
     min-height: 256px;
     font-size: $font-size--xxxxxxl;
     line-height: 57px / $font-size--xxxxxxl;

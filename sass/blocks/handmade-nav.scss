@@ -25,7 +25,7 @@
 
   @media (min-width: $screen-tablet) {
     padding-bottom: 31px;
-    //    min-height: 528px;
+    min-height: 124px;
     width: 50%;
 
     &:hover {
@@ -33,56 +33,60 @@
     }
   }
 
-  @media (min-width: $screen-desktop) {
-    min-height: 119px;
-  }
-
   &--interior {
     background: $light-green;
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: 21px;
-      right: 11%;
-      width: 45px;
-      height: 65px;
-      background: url("../img/icon-interior.svg") no-repeat center;
-      // opacity: 0.5;
-
-      @media (min-width: $screen-tablet) {
-        top: 29px;
-        right: 10%;
-      }
-
-      @media (min-width: $screen-desktop) {
-        right: 35px;
-      }
+    &:hover {
+      background: #59d5bc;
     }
+
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   top: 21px;
+    //   right: 11%;
+    //   width: 45px;
+    //   height: 65px;
+    //   background: url("../img/icon-interior.svg") no-repeat center;
+    //   // opacity: 0.5;
+    //
+    //   @media (min-width: $screen-tablet) {
+    //     top: 29px;
+    //     right: 10%;
+    //   }
+    //
+    //   @media (min-width: $screen-desktop) {
+    //     right: 35px;
+    //   }
+    // }
   }
 
   &--toy {
     background: $green;
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: 18px;
-      right: 8%;
-      width: 65px;
-      height: 65px;
-      background: url("../img/icon-toy.svg") no-repeat center;
-      // opacity: 0.5;
-
-      @media (min-width: $screen-tablet) {
-        top: 29px;
-        right: 9%;
-      }
-
-      @media (min-width: $screen-desktop) {
-        right: 32px;
-      }
+    &:hover {
+      background: #46c1ae;
     }
+
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   top: 18px;
+    //   right: 8%;
+    //   width: 65px;
+    //   height: 65px;
+    //   background: url("../img/icon-toy.svg") no-repeat center;
+    //   // opacity: 0.5;
+    //
+    //   @media (min-width: $screen-tablet) {
+    //     top: 29px;
+    //     right: 9%;
+    //   }
+    //
+    //   @media (min-width: $screen-desktop) {
+    //     right: 32px;
+    //   }
+    // }
   }
 }
 
@@ -102,4 +106,52 @@
   @media (min-width: $screen-desktop) {
     margin-left: 7%;
   }
+}
+
+.handmade-nav__svg-interior {
+  position: absolute;
+  top: 23px;
+  right: 37px;
+  fill: #3bb09d;
+
+  @media (min-width: $screen-tablet) {
+    top: 31px;
+  }
+
+  @media (min-width: $screen-desktop) {
+    top: 30px;
+  }
+}
+
+.handmade-nav__svg-toy {
+  position: absolute;
+  top: 21px;
+  right: 27px;
+  fill: #35a999;
+
+  @media (min-width: $screen-tablet) {
+    top: 33px;
+    right: 34px;
+  }
+
+  @media (min-width: $screen-desktop) {
+    top: 32px;
+    right: 35px;
+  }
+}
+
+.handmade-nav__item--interior:hover svg {
+  fill: #29a592;
+}
+
+.handmade-nav__item--interior:active svg {
+  fill: #44c0aa;
+}
+
+.handmade-nav__item--toy:hover svg {
+  fill: #239f8e;
+}
+
+.handmade-nav__item--toy:active svg {
+  fill: #37b2a0;
 }

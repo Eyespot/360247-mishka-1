@@ -14,14 +14,14 @@
   background: $gray;
 
   @media (min-width: $screen-tablet) {
-    background: $gray url("../img/bg-zigzag-fill.svg") repeat-x 0 105%;
+    background: $gray url("../img/bg-zigzag-fill.svg") repeat-x 50% 106%;
     background-size: 768px auto;
   }
 
   @media (min-width: $screen-desktop) {
     background-repeat: no-repeat;
     background-size: 1150px auto;
-    background-position: 50% 106%;
+    background-position: 50% 108.5%;
   }
 }
 
@@ -37,7 +37,7 @@
 
   @media (min-width: $screen-tablet) {
     width: 465px;
-    // padding: 0 50px;
+     padding: 0 42px;
     padding-top: 95px;
     min-height: 225px;
     font-size: $font-size--xxxxxl;
@@ -47,7 +47,7 @@
   @media (min-width: $screen-desktop) {
     // padding-left: 343px;
     // padding-right: 343px;
-    width: 545px;
+    width: 550px;
     min-height: 256px;
     font-size: $font-size--xxxxxxl;
     line-height: 57px / $font-size--xxxxxxl;
@@ -59,7 +59,7 @@
   width: $mobile-width;
 
   @media (min-width: $screen-tablet) {
-    padding-top: 24px;
+    padding-top: 25px;
     width: $tablet-width;
   }
 

@@ -5,12 +5,12 @@
 
   @media (min-width: $screen-tablet) {
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 42px;
     width: $tablet-width;
   }
 
   @media (min-width: $screen-desktop) {
-    padding: 0 225px;
+    padding: 0 215px;
     width: $desktop-width;
   }
 }
@@ -30,7 +30,7 @@
   }
 
   @media (min-width: $screen-desktop) {
-    padding-top: 65px;
+    padding-top: 67px;
     font-size: $font-size--xxxxxxl;
     line-height: 57px / $font-size--xxxxxxl;
   }

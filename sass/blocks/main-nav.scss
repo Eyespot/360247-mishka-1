@@ -140,7 +140,7 @@
 
     @media (min-width: $screen-desktop) {
       order: 4;
-      width: 7.7%;
+      width: 8.2%;
     }
     //
     //    &::before {
@@ -165,7 +165,7 @@
 
     @media (min-width: $screen-desktop) {
       order: 5;
-      width: 25.8%;
+      width: 25%;
     }
   }
 
@@ -177,8 +177,7 @@
 
     @media (min-width: $screen-desktop) {
       padding-top: 11px;
-      padding-left: 3px;
-      width: 18%;
+      width: 17.5%;
       border-right: 1px solid $gray-2;
       order: 1;
     }
@@ -215,7 +214,7 @@
   &--new {
     @media (min-width: $screen-desktop) {
       padding-top: 19px;
-      width: 18%;
+      width: 17.5%;
       order: 6;
     }
   }
@@ -298,7 +297,6 @@
 .main-nav__item--catalog a {
   @media (min-width: $screen-tablet) {
     padding-top: 20px;
-    padding-left: 4px;
     font-size: $font-size--main;
   }
 
@@ -311,7 +309,6 @@
 .main-nav__item--form a {
   @media (min-width: $screen-tablet) {
     padding-top: 20px;
-    padding-left: 4px;
     font-size: $font-size--main;
   }
 
@@ -332,21 +329,19 @@
 
   @media (min-width: $screen-desktop) {
     padding-left: 0;
-    margin-left: 404px;
+    margin-left: 408px;
   }
 }
 
 .main-nav__item--new a {
   @media (min-width: $screen-desktop) {
     font-size: $font-size--main;
-    padding-left: 10px;
   }
 }
 
 .main-nav__item--sale a {
   @media (min-width: $screen-desktop) {
     font-size: $font-size--main;
-    padding-left: 2px;
   }
 }
 

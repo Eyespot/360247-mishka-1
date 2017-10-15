@@ -6,7 +6,7 @@
   @media (min-width: $screen-tablet) {
     position: relative;
     margin-top: 64px;
-    padding: 0 50px;
+    padding: 0 42px;
     width: $tablet-width;
     min-height: 525px;
     background: url("../img/review@1x.jpg") no-repeat 0 0;
@@ -18,7 +18,7 @@
   }
 
   @media (min-width: $screen-desktop) {
-    padding-left: 225px;
+    padding-left: 215px;
     width: $desktop-width;
     min-height: 530px;
     background-position: 49px 10px;
@@ -34,7 +34,7 @@
   line-height: 30px / $font-size--xxxl;
 
   @media (min-width: $screen-tablet) {
-    padding-top: 78px;
+    padding-top: 76px;
     width: 70%;
     font-size: $font-size--xxxxxl;
     line-height: 50px / $font-size--xxxxxl;
@@ -60,8 +60,8 @@
 
   @media (min-width: $screen-tablet) {
     position: absolute;
-    right: 50px;
-    top: 45px;
+    right: 41px;
+    top: 42px;
     padding: 14px 38px;
     width: 176px;
     font-size: $font-size--lg;

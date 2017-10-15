@@ -38,7 +38,7 @@
   @media (min-width: $screen-tablet) {
     margin-left: auto;
     margin-right: auto;
-    padding: 0 50px;
+    padding: 0 45px;
     width: $tablet-width;
   }
 
@@ -58,11 +58,22 @@
 
   @media (min-width: $screen-tablet) {
     min-height: 625px;
-    background: url("../img/hero-desktop@1x.jpg") no-repeat center 0;
+    background: url("../img/hero-tablet@1x.jpg") no-repeat center 0;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-      background: url("../img/hero-desktop@2x.jpg") no-repeat center 0;
+      background: url("../img/hero-tablet@2x.jpg") no-repeat center 0;
       background-size: 1150px auto;
+    }
+  }
+
+  @media (min-width: $screen-desktop) {
+    min-height: 625px;
+    background: url("../img/hero-desktop@1x.jpg") no-repeat center -2px;
+    background-size: 1250px 746px;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background: url("../img/hero-desktop@2x.jpg") no-repeat center -2px;
+      background-size: 1250px 746px;
     }
   }
 }

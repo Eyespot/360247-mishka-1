@@ -1,15 +1,21 @@
 .promo-week {
-  max-width: 1150px;
   margin: 0 auto;
   //  min-height: 800px;
   //  background: url("../img/bg-zigzag-line.svg") repeat-x 0 97%;
   //  background-size: 320px auto;
+
+  @media (min-width: $screen-desktop) {
+    margin-top: -20px;
+    background: white;
+  }
 }
 
 .promo-week__zigzag {
   height: 40px;
-  background: url("../img/bg-zigzag-line.svg") no-repeat 0 100%;
+  margin: 0 auto;
+  background: url("../img/bg-zigzag-line.svg") no-repeat 50% 100%;
   background-size: 100%;
+  max-width: 1150px;
 
   @media (min-width: $screen-tablet) {
     height: 65px;

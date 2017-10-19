@@ -1,5 +1,7 @@
 .main-nav {
   position: relative;
+  max-width: 1050px;
+  margin: 0 auto;
 
   // @media (min-width: $screen-desktop) {
   // }
@@ -100,6 +102,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    // max-width: 1050px;
   }
 
   // @media (min-width: $screen-desktop) {
@@ -132,7 +135,7 @@
 
     @media (min-width: $screen-tablet) {
       //    margin-left: 321px;
-      width: 12.57%;
+      width: 84px;
       border: 1px solid $gray-2;
       border-top: none;
       order: 2;
@@ -199,7 +202,7 @@
 
   &--delivery {
     @media (min-width: $screen-tablet) {
-      display: inherit;
+      display: block;
       width: auto;
       flex-grow: 1;
       order: 6;
@@ -238,7 +241,7 @@
   opacity: 0.2;
 
   @media (min-width: $screen-tablet) {
-    top: 37px;
+    top: 35px;
     left: 32px;
   }
 
@@ -285,8 +288,10 @@
 
 .main-nav__item--cart a {
   @media (min-width: $screen-tablet) {
+    margin-right: 0;
     padding-top: 31px;
     padding-left: 81px;
+    float: right;
   }
 
   @media (min-width: $screen-desktop) {
@@ -296,7 +301,7 @@
 
 .main-nav__item--catalog a {
   @media (min-width: $screen-tablet) {
-    padding-top: 20px;
+    padding-top: 19px;
     font-size: $font-size--main;
   }
 
@@ -308,7 +313,7 @@
 
 .main-nav__item--form a {
   @media (min-width: $screen-tablet) {
-    padding-top: 20px;
+    padding-top: 19px;
     font-size: $font-size--main;
   }
 
@@ -320,11 +325,12 @@
 
 .main-nav__item--delivery a {
   @media (min-width: $screen-tablet) {
-    padding-top: 20px;
-    padding-left: 103px;
+    height: 41px;
+    padding-top: 19px;
     color: $dark-gray;
     font-size: $font-size--main;
     font-weight: normal;
+    float: right;
   }
 
   @media (min-width: $screen-desktop) {

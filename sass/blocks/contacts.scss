@@ -2,7 +2,7 @@
   padding-bottom: 39px;
   background: url("../img/bg-zigzag-line.svg") no-repeat 0 4.8%;
   background-size: 100%;
-  max-width: 1150px;
+  max-width: 1050px;
   margin: 0 auto;
 
   @media (min-width: $screen-tablet) {
@@ -42,7 +42,7 @@
 
   @media (min-width: $screen-tablet) {
     padding: 0 35px;
-    padding-top: 79px;
+    padding-top: 78px;
     width: auto;
     font-size: $font-size--xxxxxl;
     line-height: 50px / $font-size--xxxxxl;
@@ -50,8 +50,8 @@
 
   @media (min-width: $screen-desktop) {
     padding: 0;
-    padding-left: 170px;
-    padding-top: 167px;
+    padding-left: 126px;
+    padding-top: 166px;
     font-size: $font-size--xxxxxxl;
     line-height: 57px / $font-size--xxxxxxl;
   }
@@ -73,7 +73,7 @@
     margin: 0;
     margin-top: 50px;
     padding: 0;
-    margin-left: 175px;
+    margin-left: 132px;
     display: block;
     width: 525px;
   }
@@ -210,7 +210,7 @@
   @media (min-width: $screen-desktop) {
     margin: 0;
     margin-top: 78px;
-    margin-left: 175px;
+    margin-left: 135px;
   }
 }
 
@@ -250,7 +250,7 @@
   @media (min-width: $screen-desktop) {
     position: absolute;
     top: 95px;
-    right: 43px;
+    right: 0;
     width: 525px;
     height: 457px;
   }

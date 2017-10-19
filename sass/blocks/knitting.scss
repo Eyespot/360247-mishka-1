@@ -17,16 +17,16 @@
   background: $gray;
 
   @media (min-width: $screen-tablet) {
-    min-height: 226px;
-    background: $gray url("../img/bg-zigzag-fill.svg") repeat-x 0 105%;
+    min-height: 223px;
+    background: $gray url("../img/bg-zigzag-fill.svg") repeat-x 50% 106.5%;
     background-size: 768px auto;
   }
 
   @media (min-width: $screen-desktop) {
-    min-height: 255px;
+    min-height: 251px;
     background-repeat: no-repeat;
     background-size: 1150px auto;
-    background-position: 50% 106%;
+    background-position: 50% 108.9%;
   }
 }
 
@@ -43,7 +43,7 @@
 
   @media (min-width: $screen-tablet) {
     padding-left: 24.5%;
-    padding-top: 92px;
+    padding-top: 94px;
     padding-right: 6.5%;
     width: $tablet-width;
     //    min-height: 225px;
@@ -71,8 +71,8 @@
   line-height: 24px / $font-size--xs;
 
   @media (min-width: $screen-tablet) {
-    padding: 0 6.5%;
-    padding-top: 55px;
+    padding: 0 5.5%;
+    padding-top: 57px;
     min-height: 114px;
     font-size: $font-size--lg;
     line-height: 30px / $font-size--lg;
@@ -80,11 +80,11 @@
 
   @media (min-width: $screen-desktop) {
     padding: 0 139px;
-    padding-top: 86px;
+    padding-top: 88px;
     margin: 0 auto;
     margin-top: 35px;
     width: 980px;
-    min-height: 161px;
+    min-height: 165px;
   }
 }
 
@@ -105,7 +105,7 @@
   text-transform: uppercase;
 
   @media (min-width: $screen-tablet) {
-    width: 24%;
+    width: 25%;
 
     &::before {
       display: none;
@@ -113,8 +113,8 @@
   }
 
   @media (min-width: $screen-desktop) {
-    padding-left: 110px;
-    width: 18.9%;
+    padding-left: 62px;
+    width: 16%;
   }
 
   &--type {
@@ -198,11 +198,11 @@
 
 .knitting__inner-wrapper {
   @media (min-width: $screen-tablet) {
-    width: 75%;
+    width: 80%;
   }
 
   @media (min-width: $screen-desktop) {
-    width: 65.9%;
+    width: 71.7%;
   }
 
   &--checkbox {
@@ -222,13 +222,13 @@
   padding: 0 30px;
 
   @media (min-width: $screen-tablet) {
-    padding-left: 6.6%;
+    padding-left: 5.8%;
     padding-right: 5.8%;
     display: flex;
   }
 
   @media (min-width: $screen-desktop) {
-    max-width: 1150px;
+    max-width: 1050px;
     margin: 0 auto;
     padding: 0;
   }
@@ -254,7 +254,7 @@
 }
 
 .knitting__required-wrapper {
-  transform: translateY(-5px);
+  transform: translateY(-9px);
 
   @media (min-width: $screen-tablet) {
     width: 57%;
@@ -263,7 +263,7 @@
 
   @media (min-width: $screen-desktop) {
     width: 55.5%;
-    transform: translateY(-10px);
+    transform: translateY(-7px);
   }
 }
 
@@ -277,7 +277,7 @@
 
   @media (min-width: $screen-desktop) {
     width: auto;
-    transform: translateY(-5px);
+    transform: translateY(-1px);
   }
 }
 
@@ -286,17 +286,18 @@
   padding: 0 30px;
 
   @media (min-width: $screen-tablet) {
-    padding: 0 6.4%;
+    padding: 0 5.9%;
   }
 
-  // @media (min-width: $screen-desktop) {
-  // }
+  @media (min-width: $screen-desktop) {
+    padding: 0 6.5%;
+  }
 }
 
 .knitting__submit {
   font-family: "OpenSans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
   font-size: $font-size--lg;
-  margin-top: 24px;
+  margin-top: 22px;
   padding: 0;
   background-color: $white;
   outline: none;
@@ -304,7 +305,7 @@
   @media (min-width: $screen-tablet) {
     margin-top: 0;
     padding: 0;
-    width: 100%;
+    width: 96%;
   }
 
   @media (min-width: $screen-desktop) {
@@ -321,13 +322,9 @@
     flex-direction: row-reverse;
   }
 
-  // @media (min-width: $screen-tablet) {
-  //
-  // }
-
   @media (min-width: $screen-desktop) {
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 47px;
     width: $desktop-width;
     max-width: 1150px;
   }

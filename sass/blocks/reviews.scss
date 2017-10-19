@@ -6,22 +6,25 @@
   @media (min-width: $screen-tablet) {
     position: relative;
     margin-top: 64px;
-    padding: 0 42px;
+    padding: 0 41.5px;
     width: $tablet-width;
     min-height: 525px;
-    background: url("../img/review@1x.jpg") no-repeat 0 0;
+    background: url("../img/review@1x.jpg") no-repeat -8px 0;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-      background: url("../img/review@2x.jpg") no-repeat 0 0;
+      background: url("../img/review@2x.jpg") no-repeat -8px 0;
       background-size: 350px auto;
     }
   }
 
   @media (min-width: $screen-desktop) {
-    padding-left: 215px;
-    width: $desktop-width;
+    padding: 0;
+    padding-left: 175px;
+    margin: 0 auto;
+    margin-top: 64px;
+    width: 1050px;
     min-height: 530px;
-    background-position: 49px 10px;
+    background-position: 0 10px;
   }
 }
 
@@ -70,6 +73,7 @@
 
   @media (min-width: $screen-desktop) {
     top: 50px;
+    right: 0;
   }
 }
 

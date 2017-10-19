@@ -24,7 +24,7 @@
     @media (min-width: $screen-desktop) {
       height: 34px;
       background-size: 1150px auto;
-      background-position: 0 100%;
+      background-position: 50% 100%;
     }
   }
 }
@@ -38,7 +38,7 @@
   @media (min-width: $screen-tablet) {
     margin-left: auto;
     margin-right: auto;
-    padding: 0 45px;
+    padding: 0 41.5px;
     width: $tablet-width;
   }
 
@@ -87,7 +87,7 @@
   @include title-h2;
 
   @media (min-width: $screen-tablet) {
-    padding-top: 152px;
+    padding-top: 153px;
     width: 500px;
     font-size: $font-size--xxxxxl;
     line-height: 50px / $font-size--xxxxxl;

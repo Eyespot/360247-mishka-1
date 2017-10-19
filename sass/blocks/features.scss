@@ -24,7 +24,7 @@
   line-height: 30px / $font-size--xxxl;
 
   @media (min-width: $screen-tablet) {
-    padding-top: 55px;
+    padding-top: 53px;
     font-size: $font-size--xxxxxl;
     line-height: 50px / $font-size--xxxxxl;
   }
@@ -46,9 +46,15 @@
   line-height: 20px / $font-size--lg;
 
   @media (min-width: $screen-tablet) {
-    margin-top: 10px;
+    margin-top: 13px;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  @media (min-width: $screen-desktop) {
+    max-width: 705px;
+    margin: 0 auto;
+    margin-top: 11px;
   }
 }
 
@@ -74,7 +80,7 @@
     height: 45px;
 
     @media (min-width: $screen-tablet) {
-      top: 35px;
+      top: 32px;
       left: 1px;
     }
   }

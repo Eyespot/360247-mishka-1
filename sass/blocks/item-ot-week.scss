@@ -6,16 +6,21 @@
     margin-top: -13.5px;
     position: relative;
     width: $tablet-width;
-    max-width: 1150px;
-    padding: 0 42px;
+    padding: 0 41.5px;
     background: white;
   }
 
   @media (min-width: $screen-desktop) {
-    margin-top: 0;
+    margin: 0 auto;
     width: $desktop-width;
+    max-width: 1050px;
+    padding: 0;
     //    min-height: 700px;
   }
+
+  // @media (min-width: 1167px) {
+  //   padding: 0 50px;
+  // }
 }
 
 .item-ot-week__content {
@@ -47,7 +52,7 @@
   line-height: 30px / $font-size--xxxl;
 
   @media (min-width: $screen-tablet) {
-    padding-top: 49.5px;
+    padding-top: 49px;
     min-height: 70px;
     font-size: $font-size--xxxxxl;
     line-height: 50px / $font-size--xxxxxl;
@@ -80,8 +85,8 @@
 
   @media (min-width: $screen-desktop) {
     position: absolute;
-    top: 77px;
-    left: 89px;
+    top: 78px;
+    left: 47px;
   }
 }
 
@@ -114,7 +119,7 @@
   line-height: 20px / $font-size--main;
 
   @media (min-width: $screen-tablet) {
-    margin-top: 35px;
+    margin-top: 34px;
   }
 
   @media (min-width: $screen-desktop) {
@@ -159,7 +164,7 @@
 
   @media (min-width: $screen-desktop) {
     top: 43px;
-    right: 42px;
+    right: 0;
     width: 525px;
     height: 636px;
     z-index: 1;

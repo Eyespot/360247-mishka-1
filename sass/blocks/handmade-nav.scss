@@ -6,6 +6,7 @@
 .handmade-nav__links {
   @media (min-width: $screen-tablet) {
     display: flex;
+    justify-content: center;
   }
 }
 
@@ -27,6 +28,7 @@
     padding-bottom: 31px;
     min-height: 124px;
     width: 50%;
+    max-width: 525px;
 
     &:hover {
       transform: translateY(-5px);
